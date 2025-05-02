@@ -222,16 +222,89 @@ body {
 
 
 .menu__presentation-card__media {
-   flex-basis: calc(16.6% - 7px);
+   flex-basis: calc(16.6% - 15px);
+   flex-grow: 0;
 }
 
 .menu__presentation-card__media:not(:nth-child(6n)) {
-  margin-right: 20px;
+  margin-right: 7px;
 } 
 
 
 
 
 .menu__presentation-card__photo {
+  width: 100%;
+  height: auto;
+}
+
+.info__text {
 
 }
+
+
+.info__text__title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32.76px;  
+}
+
+
+.info__text__subtitle {
+font-weight: 300;
+font-size: 16px;
+line-height: 24.8px;
+padding-top: 15px;
+}
+
+
+.conditions {
+}
+
+
+.conditions__text {
+   display: flex;
+}
+
+
+.conditions__text__title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32.76px;  
+  padding-top: 30px;
+}
+
+.plus {
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32.76px;  
+  color: gray;
+  padding-top: 30px;
+}
+
+.contacts {
+  padding-top: 50px;
+}
+
+.contacts__title {
+
+}
+
+
+.contacts__address {
+
+}
+
+
+.contacts__schedule {
+
+}
+
+
+.number {
+
+}
+
+
+
