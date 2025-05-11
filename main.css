@@ -16,16 +16,16 @@ body {
   font-style: normal;
 }
 
-.header__test {
-  height: 84px;
+.header-plug {
+  height: 50px;
 }
 
 .header {
   display: flex;
   align-items: center;
-  position: fixed;
+  /* position: fixed;
   background-color: white;
-  width: 100%; 
+  width: 100%;  */
 }
 
 
@@ -61,14 +61,16 @@ body {
 }
 
 
-.hero__name {
+
+
+.hero__title {
   font-size: 60px;
   line-height: 70.2px;
   padding-bottom: 15px;
 }
 
 
-.hero__slogan {
+.hero__sub-title {
   font-size: 16px;
   line-height: 24.8px;
   font-weight: 300;
@@ -79,43 +81,109 @@ body {
 }
 
 
-
-
-.info__text {
+.advantages {
 
 }
 
 
-.info__text__title {
+.advantages__wrap {
+  display: flex;
+  background-color: black;
+}
+
+
+.advantages__item {
+  margin: 0 auto;
+  padding: 40px 0 60px;
+}
+
+
+.advantages__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32.4px;
+  color: #FFFFFF;
+  padding-bottom: 25px;
+}
+
+
+.advantages__text {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24.8px;  
+}
+
+
+.advantages__sub-title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24.8px;
+  color: #b9b8b8;
+}
+
+
+.advantages__button {
+   width: 100%;
+   margin-top: 20px;
+   height: 55px;
+   background-color: black;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 0%;
+   color: #FFFFFF;;
+}
+
+.section__title {
   font-weight: 400;
   font-size: 28px;
-  line-height: 32.76px;  
+  line-height: 32.76px;
 }
 
 
-.info__text__subtitle {
-font-weight: 300;
-font-size: 16px;
-line-height: 24.8px;
-padding-top: 15px;
+.section__sub-title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24.8px;
 }
 
 
-.conditions {
+.slider {
+  
 }
 
 
-.conditions__text {
-   display: flex;
+.slider__categories {
+  display: flex;
+  
 }
 
 
-.conditions__text__title {
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 32.76px;  
-  padding-top: 50px;
+.slider__button {
+  
 }
+
+
+.card__title {
+
+}
+
+
+.card__price {
+
+}
+
+
+.card__sub-title {
+
+}
+
+
+.card__reserv {
+
+}
+
 
 .plus {
   margin-left: auto;
