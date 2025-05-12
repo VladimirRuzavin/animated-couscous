@@ -139,6 +139,7 @@ body {
   font-weight: 400;
   font-size: 28px;
   line-height: 32.76px;
+  padding-top: 50px;
 }
 
 
@@ -146,6 +147,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 24.8px;
+  padding: 12px 0 40px;
 }
 
 
@@ -156,32 +158,91 @@ body {
 
 .slider__categories {
   display: flex;
-  
 }
 
 
 .slider__button {
-  
+  width: 33.3%;
+  text-align: left;
+  background-color: white;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.card {
+  flex-direction: column;
 }
 
 
 .card__title {
-
+  padding-top: 50px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 54px;
 }
 
 
 .card__price {
-
+font-weight: 400;
+font-size: 18px;
+line-height: 24.3px;
+padding-top: 20px;
 }
 
 
 .card__sub-title {
-
+font-weight: 300;
+font-size: 14px;
+line-height: 21.7px;
+padding: 20px 0 35px;
 }
 
 
 .card__reserv {
+width: 375px;
+height: 45px;
+color: white;
+background-color: black;
+}
 
+.about {
+
+}
+
+.about__text {
+
+}
+
+
+.about__text__title {
+font-weight: 400;
+font-size: 28px;
+line-height: 32.76px;
+}
+
+
+.about__text__subtitle {
+font-weight: 300;
+font-size: 16px;
+line-height: 24.8px;
+}
+
+.tabs {
+
+}
+
+
+.tabs__text {
+  display: flex;
+}
+
+
+.tabs__title {
+padding-top: 40px;
+font-weight: 400;
+font-size: 24px;
+line-height: 32.4px;
 }
 
 
