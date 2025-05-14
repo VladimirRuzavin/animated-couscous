@@ -215,14 +215,14 @@ background-color: black;
 }
 
 
-.about__text__title {
+.about__title {
 font-weight: 400;
 font-size: 28px;
 line-height: 32.76px;
 }
 
 
-.about__text__subtitle {
+.about__subtitle {
 font-weight: 300;
 font-size: 16px;
 line-height: 24.8px;
@@ -246,7 +246,7 @@ line-height: 32.4px;
 }
 
 
-.plus {
+.tabs__plus {
   margin-left: auto;
   font-weight: 400;
   font-size: 28px;
@@ -302,7 +302,7 @@ line-height: 32.4px;
 }
 
 
-.footer__logo__img {
+.footer__img {
   width: 100px;
 height: 100px;
 
@@ -324,7 +324,7 @@ margin-top: 16px;
 }
 
 
-.footer__item__naming {
+.footer__naming {
 font-weight: 400;
 font-size: 16px;
 line-height: 21.6px;
@@ -333,7 +333,7 @@ color: #525252;
 }
 
 
-.footer__item__link {
+.footer__link {
   
   font-weight: 300;
   font-size: 14px;
@@ -344,7 +344,7 @@ color: #525252;
 }
 
 
-.footer__link__time {
+.footer__time {
   font-weight: 300;
   font-size: 14px;
   line-height: 21.7px;
@@ -353,7 +353,7 @@ color: #525252;
 }
 
 
-.footer__item__address {
+.footer__address {
   font-weight: 300;
   font-size: 14px;
   line-height: 21.7px;
