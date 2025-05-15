@@ -170,12 +170,12 @@ body {
   line-height: 27px;
 }
 
-.card {
+.slider-card {
   flex-direction: column;
 }
 
 
-.card__title {
+.slider-card__title {
   padding-top: 50px;
   font-weight: 500;
   font-size: 40px;
@@ -183,7 +183,7 @@ body {
 }
 
 
-.card__price {
+.slider-card__price {
 font-weight: 400;
 font-size: 18px;
 line-height: 24.3px;
@@ -191,7 +191,7 @@ padding-top: 20px;
 }
 
 
-.card__sub-title {
+.slider-card__sub-title {
 font-weight: 300;
 font-size: 14px;
 line-height: 21.7px;
@@ -199,7 +199,7 @@ padding: 20px 0 35px;
 }
 
 
-.card__reserv {
+.slider-card__reserv {
 width: 375px;
 height: 45px;
 color: white;
@@ -293,7 +293,7 @@ line-height: 32.4px;
 
 .footer__wrap {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 50px 0;
 }
 
