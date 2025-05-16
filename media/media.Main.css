@@ -1,0 +1,28 @@
+@media  (max-width: 768px) {
+    .header__link {
+    display: none;
+    }
+
+   .hero__title {
+    font-size: 26px;
+    height: 48px;
+   }
+
+   .hero__sub-title {
+    font-size: 14px;
+   }
+
+   .advantages__wrap {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .advantages__item {
+    margin-right: auto;
+   }
+
+   .slider-card__reserv {
+    width: 100%;
+   }
+
+}
