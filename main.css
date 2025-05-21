@@ -94,6 +94,7 @@ body {
 
 .advantages__item {
   padding: 40px 20px 60px;
+  flex-basis: 33.3%;
 }
 
 
@@ -150,17 +151,52 @@ body {
 }
 
 
+
 .slider {
   
+}
+
+.slider__title {
+font-weight: 500;
+font-size: 40px;
+line-height: 54px;
+
+
+}
+
+
+.slider__price {
+font-weight: 400;
+font-size: 18px;
+line-height: 24.3px;
+margin: 30px 0;
+}
+
+
+.slider__sub-title {
+font-weight: 300;
+font-size: 14px;
+line-height: 21.7px;
+margin-bottom: 30px;
+}
+
+
+.slider__reserv {
+text-align: center;
+padding: 15px 138px;
+color: white;
+background-color: black;
 }
 
 
 .slider__wrap {
   display: flex;
+  padding-top: 50px;
 }
 
 .slider__info {
-  flex-basis: 40%;
+  flex-basis: 35%;
+  padding-right: 20px;
 }
 
 .slider__categories {
@@ -214,7 +250,7 @@ background-color: black;
 }
 
 .slider__slide-wrap {
-  flex-basis: 60%;
+  flex-basis: 65%;
   display: flex;
   flex-direction: column;
 }
@@ -232,7 +268,7 @@ background-color: black;
 
 .slider__control {
   display: flex;
-  gap: 10px;
+  gap: 7px;
 }
 
 
