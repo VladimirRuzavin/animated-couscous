@@ -281,6 +281,22 @@ background-color: black;
   width: 100%;
 }
 
+.photo-gallery {
+display: flex;
+flex-wrap: wrap-reverse;
+gap: 3px;
+}
+
+
+.photo-gallery__img-wrap {
+flex-basis: 25%;
+}
+
+
+.photo-gallery__img {
+width: 100%;
+}
+
 
 
 .about {
@@ -331,6 +347,34 @@ line-height: 32.4px;
   color: gray;
   padding-top: 30px;
 }
+
+
+.tabs__img {
+width: 100%;
+}
+
+
+.tabs__card {
+display: flex;
+gap: 20px;
+}
+
+.tabs__wrap {
+flex-basis: 33.3%;
+}
+
+.tabs__item-title {
+
+}
+
+.tabs__item-sub-title {
+
+}
+
+.tabs__item {
+  background-color: black;
+}
+
 
 .contacts {
   padding-top: 50px;
