@@ -5,7 +5,6 @@
 
    .hero__title {
     font-size: 26px;
-    
    }
 
    .hero__sub-title {
@@ -19,6 +18,10 @@
 
    .advantages__item {
     
+   }
+
+   .slider__title {
+    font-size: 22px;
    }
 
    .slider__reserv {
