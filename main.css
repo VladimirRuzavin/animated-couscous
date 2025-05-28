@@ -52,6 +52,23 @@ body {
   
 }
 
+
+.burger {
+    display: none;
+}
+
+.logo__img {
+  height: 50px;
+
+}
+
+
+.burger-icon {
+    height: 40px;
+    margin-left: auto;
+}
+
+
 .header__reserv {
   padding: 15px 65px;
   line-height: 100%;

@@ -1,7 +1,35 @@
 @media  (max-width: 768px) {
-    .header__link {
-    display: none;
-    }
+.header__link {
+display: none;
+}
+
+
+.header__operating-mode {
+display: none;
+}
+
+
+.header__phone {
+display: none;
+}
+
+
+.header__time {
+display: none;
+}
+
+
+.header__reserv {
+   display: none; 
+}
+
+.burger-icon {
+    margin-left: auto;
+}
+
+    .burger {
+    display: block;
+   }
 
    .hero__title {
     font-size: 26px;
