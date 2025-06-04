@@ -64,4 +64,59 @@
   .slider__slide-wrap {
     margin-top: 30px;
   }
+
+  .footer__logo {
+    display: none;
+  }
+
+  .footer__item {
+    display: none;
+  }
+
+  .footer__item-list {
+   
+  }
+
+  .footer__link {
+    padding-left: 9px;
+    font-weight: 600;
+  }
+
+  .footer__wrap-list {
+    flex-direction: column;
+    display: block;
+  }
+
+  .footer__item-list-lover{
+    align-items: center;
+  }
+
+  .footer__item-list-lover {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__link-lover {
+    font-weight: 600;
+    color: white;
+    padding-top: 9px;
+  }
+
+  .initials__lover {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__bottom {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+
+.footer__button-up {
+   font-weight: 600;
+   color: white;
+   background-color: #1F1F1F;
+  }
 }
