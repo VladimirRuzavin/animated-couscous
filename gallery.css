@@ -1,0 +1,18 @@
+.photo-gallery {
+display: grid;
+grid-template-columns: repeat(4, auto);
+gap: 20px;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+.photo-gallery__img-wrap {
+
+}
+
+
+.photo-gallery__img {
+width: 100%;
+}
