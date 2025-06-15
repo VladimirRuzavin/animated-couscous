@@ -74,12 +74,15 @@
   }
 
   .footer__item-list {
-   
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap; 
   }
 
   .footer__link {
     padding-left: 9px;
     font-weight: 600;
+    /* white-space: nowrap; */
   }
 
   .footer__wrap-list {

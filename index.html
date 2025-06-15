@@ -1,235 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/reset.css">
-    <link rel="stylesheet" href="/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="/media/mediaMain.css">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/media/mediaMain.css" />
+  </head>
 
-<body>
-    <header class="header container">
-        <a class="header__link" href="#">ЗАЛЫ</a>
-        <a class="header__link" href="#">О СТУДИИ</a>
+  <body>
+    <header class="header">
+      <div class="container header-wrap">
+        <a class="header__link" href="#halls">ЗАЛЫ</a>
+        <a class="header__link" href="#about">О СТУДИИ</a>
         <a class="header__link" href="#">УСЛУГИ</a>
         <a class="header__link" href="#">КОНТАКТЫ</a>
         <div class="header__operating-mode">
-            <a href="#0" class="header__phone">+7 (3952) 50 20</a>
-            <p class="header__time">10:00 – 22:00</p>
+          <a href="#0" class="header__phone">+7 (3952) 50 20</a>
+          <p class="header__time">10:00 – 22:00</p>
         </div>
         <button class="header__reserv">ЗАБРОНИРОВАТЬ</button>
-       <img src="/img/logo.png" alt="фото" class="header__logo">
-        <img src="/img/burger.svg" alt="фото" class="burger">
+        <img src="/img/logo.png" alt="фото" class="header__logo" />
+        <img src="/img/burger.svg" alt="фото" class="burger" />
+      </div>
     </header>
     <div class="header-plug"></div>
     <section class="hero container">
-        <h1 class="hero__title">ФОТОСТУДИЯ LOFT</h1>
-        <p class="hero__sub-title">Мы сделали все для комфортного проведения фотосессий в Иркутске</p>
+      <h1 class="hero__title">ФОТОСТУДИЯ LOFT</h1>
+      <p class="hero__sub-title">
+        Мы сделали все для комфортного проведения фотосессий в Иркутске
+      </p>
     </section>
-    <section class="presentation container">
-
-    </section>
+    <section class="presentation container"></section>
     <section class="advantages container">
-        <div class="advantages__wrap">
-            <div class="advantages__item">
-                <p class="advantages__title">3 просторных зала</p>
-                <p class="advantages__text">Общая площадь фотостудии – 365 м2</p>
-                <p class="advantages__sub-title">3 зала в разных стилях от 40 до 120 м2, в каждом зале есть отдельная
-                    гримерка. Единственная аквастудия в Иркутске!</p>
-            </div>
-            <div class="advantages__item">
-                <p class="advantages__title">Профессиональное оборудование</p>
-                <p class="advantages__sub-title">Вы всегда можете использовать в своей работе разные источники света и
-                    фоны.</p>
-            </div>
-            <div class="advantages__item">
-                <p class="advantages__title">Крутой сервис</p>
-                <p class="advantages__sub-title">В вашем распоряжении просторная зона ожидания, кухня, душевая,
-                    переговорная, бесплатная парковка, внимательные администраторы и всегда вкусный кофе.</p>
-            </div>
+      <div class="advantages__wrap">
+        <div class="advantages__item">
+          <p class="advantages__title">3 просторных зала</p>
+          <p class="advantages__text">Общая площадь фотостудии – 365 м2</p>
+          <p class="advantages__sub-title">
+            3 зала в разных стилях от 40 до 120 м2, в каждом зале есть отдельная
+            гримерка. Единственная аквастудия в Иркутске!
+          </p>
         </div>
-        <button class="advantages__button">ЗАБРОНИРОВАТЬ</button>
+        <div class="advantages__item">
+          <p class="advantages__title">Профессиональное оборудование</p>
+          <p class="advantages__sub-title">
+            Вы всегда можете использовать в своей работе разные источники света
+            и фоны.
+          </p>
+        </div>
+        <div class="advantages__item">
+          <p class="advantages__title">Крутой сервис</p>
+          <p class="advantages__sub-title">
+            В вашем распоряжении просторная зона ожидания, кухня, душевая,
+            переговорная, бесплатная парковка, внимательные администраторы и
+            всегда вкусный кофе.
+          </p>
+        </div>
+      </div>
+      <button class="advantages__button">ЗАБРОНИРОВАТЬ</button>
     </section>
     <section class="section container">
-        <p class="section__title">ЗАЛЫ</p>
-        <p class="section__sub-title">3 зала в разных стилях с отдельными гримерками и профессиональным оборудованием
-        </p>
-        <div class="slider">
-            <div class="slider__categories">
-                <button class="slider__button">ХЮГГЕ</button>
-                <button class="slider__button">АКВА</button>
-                <button class="slider__button">ЛАГОМ</button>
-            </div>
-            <div class="slider__wrap">
-                <div class="slider__info">
-                    <p class="slider__title">ХЮГГЕ</p>
-                    <p class="slider__price">2000 ₽/час</p>
-                    <p class="slider__sub-title">Большой, светлый зал, площадью 65 кв.метров. В зале есть своя
-                        примерочная, профессиональное оборудование и фоновая система. Идеально подходит под масштабные
-                        съемки, мастер-классы, лекции и мероприятия.</p>
-                    <button class="slider__reserv">Забронировать</button>
-                </div>
-                <div class="slider__slide-wrap">
-                    <div class="slider__slide">
-                        <img class="slider__img" src="/img/kid.jpg" alt="фото с ребенком">
-                    </div>
-                    <div class="slider__control">
-                        <div class="slider__control-img-wrap">
-                            <img class="slider__control-img" src="/img/hall1.jpg" alt="фото">
-                        </div>
-                        <div class="slider__control-img-wrap">
-                            <img class="slider__control-img" src="/img/hall2.jpg" alt="фото">
-                        </div>
-                        <div class="slider__control-img-wrap">
-                            <img class="slider__control-img" src="/img/hall3.jpg" alt="фото">
-                        </div>
-                        <div class="slider__control-img-wrap">
-                            <img class="slider__control-img" src="/img/woman.jpg" alt="фото">
-                        </div>
-                        <div class="slider__control-img-wrap">
-                            <img class="slider__control-img" src="/img/man.png" alt="фото">
-                        </div>
-                        <div class="slider__control-img-wrap">
-                            <img class="slider__control-img" src="/img/kid.jpg" alt="фото">
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <p id="halls" class="section__title">ЗАЛЫ</p>
+      <p class="section__sub-title">
+        3 зала в разных стилях с отдельными гримерками и профессиональным
+        оборудованием
+      </p>
+      <div class="slider">
+        <div class="slider__categories">
+          <button class="slider__button">ХЮГГЕ</button>
+          <button class="slider__button">АКВА</button>
+          <button class="slider__button">ЛАГОМ</button>
         </div>
+        <div class="slider__wrap">
+          <div class="slider__info">
+            <p class="slider__title">ХЮГГЕ</p>
+            <p class="slider__price">2000 ₽/час</p>
+            <p class="slider__sub-title">
+              Большой, светлый зал, площадью 65 кв.метров. В зале есть своя
+              примерочная, профессиональное оборудование и фоновая система.
+              Идеально подходит под масштабные съемки, мастер-классы, лекции и
+              мероприятия.
+            </p>
+            <button class="slider__reserv">Забронировать</button>
+          </div>
+          <div class="slider__slide-wrap">
+            <div class="slider__slide">
+              <img
+                class="slider__img"
+                src="/img/kid.jpg"
+                alt="фото с ребенком"
+              />
+            </div>
+            <div class="slider__control">
+              <div class="slider__control-img-wrap">
+                <img
+                  class="slider__control-img"
+                  src="/img/hall1.jpg"
+                  alt="фото"
+                />
+              </div>
+              <div class="slider__control-img-wrap">
+                <img
+                  class="slider__control-img"
+                  src="/img/hall2.jpg"
+                  alt="фото"
+                />
+              </div>
+              <div class="slider__control-img-wrap">
+                <img
+                  class="slider__control-img"
+                  src="/img/hall3.jpg"
+                  alt="фото"
+                />
+              </div>
+              <div class="slider__control-img-wrap">
+                <img
+                  class="slider__control-img"
+                  src="/img/woman.jpg"
+                  alt="фото"
+                />
+              </div>
+              <div class="slider__control-img-wrap">
+                <img
+                  class="slider__control-img"
+                  src="/img/man.png"
+                  alt="фото"
+                />
+              </div>
+              <div class="slider__control-img-wrap">
+                <img
+                  class="slider__control-img"
+                  src="/img/kid.jpg"
+                  alt="фото"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="photo-gallery">
-        <div class="photo-gallery__img-wrap">
-            <img class="photo-gallery__img" src="/img/hall3.jpg" alt="фото">
-        </div>
-        <div class="photo-gallery__img-wrap">
-            <img class="photo-gallery__img" src="/img/hall3.jpg" alt="фото">
-        </div>
-        <div class="photo-gallery__img-wrap">
-            <img class="photo-gallery__img" src="/img/hall1.jpg" alt="фото">
-        </div>
-        <div class="photo-gallery__img-wrap">
-            <img class="photo-gallery__img" src="/img/hall1.jpg" alt="фото">
-        </div>
-        <div class="photo-gallery__img-wrap">
-            <img class="photo-gallery__img" src="/img/hall1.jpg" alt="фото">
-        </div>
-        <div class="photo-gallery__img-wrap">
-            <img class="photo-gallery__img" src="/img/hall1.jpg" alt="фото">
-        </div>
-        <div class="photo-gallery__img-wrap">
-            <img class="photo-gallery__img" src="/img/hall1.jpg" alt="фото">
-        </div>
-        <div class="photo-gallery__img-wrap">
-            <img class="photo-gallery__img" src="/img/hall1.jpg" alt="фото">
-        </div>
+      <div class="photo-gallery__img-wrap">
+        <img class="photo-gallery__img" src="/img/hall3.jpg" alt="фото" />
+      </div>
+      <div class="photo-gallery__img-wrap">
+        <img class="photo-gallery__img" src="/img/hall3.jpg" alt="фото" />
+      </div>
+      <div class="photo-gallery__img-wrap">
+        <img class="photo-gallery__img" src="/img/hall1.jpg" alt="фото" />
+      </div>
+      <div class="photo-gallery__img-wrap">
+        <img class="photo-gallery__img" src="/img/hall1.jpg" alt="фото" />
+      </div>
+      <div class="photo-gallery__img-wrap">
+        <img class="photo-gallery__img" src="/img/hall1.jpg" alt="фото" />
+      </div>
+      <div class="photo-gallery__img-wrap">
+        <img class="photo-gallery__img" src="/img/hall1.jpg" alt="фото" />
+      </div>
+      <div class="photo-gallery__img-wrap">
+        <img class="photo-gallery__img" src="/img/hall1.jpg" alt="фото" />
+      </div>
+      <div class="photo-gallery__img-wrap">
+        <img class="photo-gallery__img" src="/img/hall1.jpg" alt="фото" />
+      </div>
     </section>
     <section class="about container">
-        <div class="about__text">
-            <p class="about__title">О СТУДИИ</p>
-            <p class="about__subtitle">Две циклорамы, аквастудия, разнообразие декораций и реквизита, <br>
-                профессиональное оборудование, крутой сервис</p>
+      <div class="about__text">
+        <p id="about" class="about__title">О СТУДИИ</p>
+        <p class="about__subtitle">
+          Две циклорамы, аквастудия, разнообразие декораций и реквизита, <br />
+          профессиональное оборудование, крутой сервис
+        </p>
+      </div>
+      <div class="tabs">
+        <div class="tabs__text">
+          <p class="tabs__title">ОБОРУДОВАНИЕ</p>
+          <p class="tabs__plus">+</p>
         </div>
-        <div class="tabs">
-            <div class="tabs__text">
-                <p class="tabs__title">ОБОРУДОВАНИЕ</p>
-                <p class="tabs__plus">+</p>
-            </div>
-            <div class="tabs__text">
-                <p class="tabs__title">УДОБСТВО И ВЫСОКИЙ УРОВЕНЬ СЕРВИСА</p>
-                <p class="tabs__plus">+</p>
-            </div>
-            <div class="tabs__text">
-                <p class="tabs__title">ПРАВИЛА И СТУДИИ</p>
-                <p class="tabs__plus">+</p>
-            </div>
-            <!-- <div class="tabs__card">
-              <div class="tabs__wrap">
-                <img class="tabs__img" src="/img/hall2.jpg" alt="фото">
-                <div class="tabs__item">
-                    <p class="tabs__item-title">Студия автопортрета</p>
-                    <p class="tabs__item-sub-title">В студии автопортрета ты — и фотограф, и модель. Это минималистичное пространство с большим зеркалом. Здесь не видно камеры и нет фотографа, ты управляешь съемкой с помощью маленького кликера.</p>
-                </div>
-            </div>
-             <div class="tabs__wrap">
-                <img class="tabs__img" src="/img/hall2.jpg" alt="фото">
-                <div class="tabs__item">
-                    <p class="tabs__item-title">Студия автопортрета</p>
-                    <p class="tabs__item-sub-title">В студии автопортрета ты — и фотограф, и модель. Это минималистичное пространство с большим зеркалом. Здесь не видно камеры и нет фотографа, ты управляешь съемкой с помощью маленького кликера.</p>
-                </div>
-            </div>
-             <div class="tabs__wrap">
-                <img class="tabs__img" src="/img/hall2.jpg" alt="фото">
-                <div class="tabs__item">
-                    <p class="tabs__item-title">Студия автопортрета</p>
-                    <p class="tabs__item-sub-title">В студии автопортрета ты — и фотограф, и модель. Это минималистичное пространство с большим зеркалом. Здесь не видно камеры и нет фотографа, ты управляешь съемкой с помощью маленького кликера.</p>
-                </div>
-            </div>
-          </div> -->
+        <div class="tabs__text">
+          <p class="tabs__title">УДОБСТВО И ВЫСОКИЙ УРОВЕНЬ СЕРВИСА</p>
+          <p class="tabs__plus">+</p>
         </div>
-        <div class="contacts">
-            <p class="contacts__title">КОНТАКТЫ</p>
-            <p class="contacts__address">Мы находимся в Иркутске, ул. Дорожная, 1</p>
-            <p class="contacts__schedule"> Режим работы: каждый день с 10:00 до 22:00</p>
-            <p class="contacts__number">+7 (3952) 50 20 30</p>
+        <div class="tabs__text">
+          <p class="tabs__title">ПРАВИЛА И СТУДИИ</p>
+          <p class="tabs__plus">+</p>
         </div>
-        <!-- <div class="cards">
+      </div>
+      <div class="contacts">
+        <p class="contacts__title">КОНТАКТЫ</p>
+        <p class="contacts__address">
+          Мы находимся в Иркутске, ул. Дорожная, 1
+        </p>
+        <p class="contacts__schedule">
+          Режим работы: каждый день с 10:00 до 22:00
+        </p>
+        <p class="contacts__number">+7 (3952) 50 20 30</p>
+      </div>
+      <!-- <div class="cards">
             <img class="cards__img" src="/img/cards.png" alt="карты">
         </div> -->
     </section>
     <footer class="footer">
-        <div class="container">
-            <div class="footer__wrap">
-                <div class="footer__logo">
-                    <img class="footer__img" src="/img/logo.png" alt="лого">
-                    <p class="initials">ИП Петраков Артем Александрович</p>
-                </div>
-              <div class="footer__wrap-list">
-                  <div class="footer__item-list">
-                    <a href="#0" class="footer__link">АРЕНДА ЗАЛОВ</a>
-                    <a href="#0" class="footer__link">ФОТОСЕССИИ ПОД КЛЮЧ</a>
-                    <a href="#0" class="footer__link">ФОТО НА ДОКУМЕНТЫ</a>
-                    <a href="#0" class="footer__link">СТУДИЯ АВТОПОРТРЕТА</a>
-                </div>
-                <div class="footer__item-list-lover">
-                     <a href="#0" class="footer__link-lover">ФОТОГРАФЫ</a>
-                </div>  
-                <div class="initials__lover">
-                    <p class="initials">ИП Петраков Артем Александрович</p>
-                </div>
-                <div class="footer__bottom">
-                    <button class="footer__button-up">Наверх</button>
-                </div>
-              </div> 
-                <div class="footer__item">
-                    <p class="footer__naming">УСЛУГИ</p>
-                    <a href="#0" class="footer__link">Аренда залов</a>
-                    <a href="#0" class="footer__link">Фотосессии под ключ</a>
-                    <a href="#0" class="footer__link">Фото на документы</a>
-                    <a href="#0" class="footer__link">Студия автопортрета</a>
-                    <a href="#0" class="footer__link">Фотографы</a>
-                </div>
-                <div class="footer__item">
-                    <p class="footer__naming">НАШИ СОЦ СЕТИ</p>
-                    <a href="#0" class="footer__link">Instagram *</a>
-                    <a href="#0" class="footer__link">VK</a>
-                    <a href="#0" class="footer__link">Telegram</a>
-                </div>
-                <div class="footer__item">
-                    <p class="footer__naming">КОНТАКТЫ</p>
-                    <a href="#0" class="footer__time">+7 (3952) 50 20 30</a>
-                    <p href="#0" class="footer__address">г. Иркутск, ул, Дорожная, 1</p>
-                </div>
+      <div class="container">
+        <div class="footer__wrap">
+          <div class="footer__logo">
+            <img class="footer__img" src="/img/logo.png" alt="лого" />
+            <p class="initials">ИП Петраков Артем Александрович</p>
+          </div>
+          <div class="footer__wrap-list">
+            <div class="footer__item-list">
+              <a href="#0" class="footer__link">АРЕНДА ЗАЛОВ</a>
+              <a href="#0" class="footer__link">ФОТОСЕССИИ ПОД КЛЮЧ</a>
+              <a href="#0" class="footer__link">ФОТО НА ДОКУМЕНТЫ</a>
+              <a href="#0" class="footer__link">СТУДИЯ АВТОПОРТРЕТА</a>
             </div>
+            <div class="footer__item-list-lover">
+              <a href="#0" class="footer__link-lover">ФОТОГРАФЫ</a>
+            </div>
+            <div class="initials__lover">
+              <p class="initials">ИП Петраков Артем Александрович</p>
+            </div>
+            <div class="footer__bottom">
+              <button class="footer__button-up">Наверх</button>
+            </div>
+          </div>
+          <div class="footer__item">
+            <p class="footer__naming">УСЛУГИ</p>
+            <a href="#0" class="footer__link">Аренда залов</a>
+            <a href="/gallery.html" class="footer__link">Фотосессии под ключ</a>
+            <a href="#0" class="footer__link">Фото на документы</a>
+            <a href="#0" class="footer__link">Студия автопортрета</a>
+            <a href="#0" class="footer__link">Фотографы</a>
+          </div>
+          <div class="footer__item">
+            <p class="footer__naming">НАШИ СОЦ СЕТИ</p>
+            <a href="#0" class="footer__link">Instagram *</a>
+            <a href="#0" class="footer__link">VK</a>
+            <a href="#0" class="footer__link">Telegram</a>
+          </div>
+          <div class="footer__item">
+            <p class="footer__naming">КОНТАКТЫ</p>
+            <a href="#0" class="footer__time">+7 (3952) 50 20 30</a>
+            <p href="#0" class="footer__address">г. Иркутск, ул, Дорожная, 1</p>
+          </div>
         </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
