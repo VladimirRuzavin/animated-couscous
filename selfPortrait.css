@@ -113,7 +113,7 @@ body {
 }
 
 .about__text {
-   font-size: 16px;
+  font-size: 16px;
 }
 
 .about__card {
@@ -137,18 +137,17 @@ body {
   font-size: 24px;
 }
 
-
 .about__summary {
   padding: 30px 0 50px;
 }
 
 .about__sumary-wrap {
-   display: flex; 
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about__summary-text {
-   font-size: 16px;
+  font-size: 16px;
 }
 
 .about__price {
@@ -162,7 +161,6 @@ body {
 }
 
 .about__shooting-time {
-
 }
 
 .about__time-price {
@@ -232,3 +230,67 @@ body {
   /* color: white; */
   margin-top: 22px;
 }
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.questions__faq {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.questions__wrap {
+  flex-basis: 50%;
+}
+
+.questions__button {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.questions__wrap-support {
+  flex-basis: 50%;
+}
+
+.present-photo {
+  background: url("/img/hall2.jpg") no-repeat;
+  background-size: cover;
+   background-position: center; 
+  height: 311px;
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  text-align: center;
+}
+
+.contacts {
+  padding-top: 50px;
+}
+
+.contacts__title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32.76px;
+}
+
+.contacts__address {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24.8px;
+}
+
+.contacts__schedule {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24.8px;
+}
+
+.contacts__number {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  padding-top: 17px;
+}
+
