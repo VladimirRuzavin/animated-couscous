@@ -27,6 +27,10 @@
     display: block;
   }
 
+  .header-wrap {
+    justify-content: space-between;
+  }
+
   .burger {
     display: block;
   }
