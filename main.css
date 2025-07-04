@@ -28,7 +28,6 @@ body {
   width: 100%;
 }
 
-
 .header__link:hover {
   text-decoration: underline;
 }
@@ -61,7 +60,7 @@ body {
 }
 
 .header__reserv {
-  padding: 15px 65px;
+  padding: 15px 33px;
   line-height: 100%;
   color: white;
   background-color: black;
@@ -76,6 +75,10 @@ body {
 .burger {
   height: 20px;
   display: none;
+}
+
+.hero {
+  padding-top: 100px;
 }
 
 .hero__title {
@@ -249,10 +252,14 @@ body {
 
 .slider__slide {
   padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .slider__img {
-  width: 100%;
+  max-width: 100%;
+  height: 760px;
+  object-fit: cover;
 }
 
 .slider__control {
@@ -301,6 +308,31 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 24.8px;
+}
+
+.about__card {
+  display: flex;
+  justify-content: space-between;
+  /* flex-basis: 33.3px;  */
+}
+
+.about__card-wrap {
+  width: 100%;
+}
+
+.about__img {
+  width: 360px;
+  max-height: 500px;
+  object-fit: cover;
+}
+.about__card-title {
+  margin-left: 10px;
+}
+
+.about__card-title-h2 {
+  font-size: 14px;
+  line-height: 1.55;
+  font-weight: 300;
 }
 
 .tabs {
