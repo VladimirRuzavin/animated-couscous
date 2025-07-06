@@ -312,27 +312,29 @@ body {
 
 .about__card {
   display: flex;
-  justify-content: space-between;
-  /* flex-basis: 33.3px;  */
+   justify-content: space-between; 
+   /* flex-basis: 33.3px;   */
 }
 
 .about__card-wrap {
-  width: 100%;
+  max-width: 33.3%;
 }
 
 .about__img {
-  width: 360px;
+ max-width: 100%;
   max-height: 500px;
   object-fit: cover;
 }
 .about__card-title {
-  margin-left: 10px;
+   background-color: black;
+   /* padding-left: 10px; */
 }
 
 .about__card-title-h2 {
   font-size: 14px;
   line-height: 1.55;
   font-weight: 300;
+  color: white;
 }
 
 .tabs {

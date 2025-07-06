@@ -11,21 +11,21 @@
 // btn.onclick = function () {
 //    alert("Привет меня зовут " + user2 + " " + "мне " + age);
 // };
-//  let city = "Cheboksary";
-//  city = "Moscow";
-//  let btn = document.querySelector(".advantages__button");
-//  console.log(btn);
-//  btn.onclick = function () {
-//    alert(city);
-//  };
+  let city = "Cheboksary";
+  city = "Moscow";
+  let btn = document.querySelector(".advantages__button");
+  console.log(btn);
+  btn.onclick = function () {
+    alert(city);
+  };
 
-//  const animal = "cat";
-//  const game = "fifa";
-//  let btn = document.querySelector(".header__reserv");
-//  console.log(btn);
-//  btn.onclick = function () {
-//    alert(game);
-//  };
+  const animal = "cat";
+  const game = "fifa";
+  let btn = document.querySelector(".header__reserv");
+  console.log(btn);
+  btn.onclick = function () {
+    alert(game);
+  };
 
 console.log(typeof 37);
 console.log(typeof 1n);
