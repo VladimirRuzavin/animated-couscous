@@ -304,11 +304,11 @@ body {
   line-height: 32.76px;
 }
 
-/* .about__subtitle {
+ .about__subtitle {
   font-weight: 300;
   font-size: 16px;
   line-height: 24.8px;
-} */
+} 
 
 .about__card {
   display: flex;
