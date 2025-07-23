@@ -7,46 +7,40 @@ getBurgerElement();
 
 function clickOnBurger() {
   let burger = document.querySelector(".burger");
-  burger.onclick = function() {
+  burger.onclick = function () {
     alert(burger);
-  }
+  };
 }
 clickOnBurger();
 
-
 //задание 1
-function greetings() {
-  alert("sayHello");
+function sayHello(from, text) {
+    console.log (from + ": " + text)
 }
 
-greetings();
+sayHello("Вова", "Привет")
+
 
 //задание 2
-function sum() {
- let x = 5 , y = 10;
- alert(x + y);
+function sum(x, y) {
+  return x + y;
 }
 
-sum();
-
+let result = sum (1, 1);
+alert(result);
 
 //задание 3
-let calcSquare = (a , b) =>{
-  let result = (a + b) ** 2;
+let calcSquare = (a) => {
+  let result = a * 2;
   return result;
-}
+};
 
-alert (calcSquare (15, 15) );
-
+alert(calcSquare(15));
 
 //задание 4
 function calc() {
   let double = 15 * 2;
-  alert (double);
+  alert(double);
 }
 
 calc();
-
-
-
-
