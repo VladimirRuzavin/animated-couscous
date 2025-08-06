@@ -56,12 +56,29 @@ let car = {
   model: "audi",
   year: 2016,
   speed: 0,
-  speedUp: function() {
+  speedUp: function () {
     this.speed += 100;
     console.log(car.speed);
   },
 };
 
-car.speedUp()
-car.speedUp()
+car.speedUp();
+car.speedUp();
 // console.log(car);
+
+const user = {
+  name: "Anna",
+  age: 17,
+  role: "editor",
+  isBanned: false,
+  updateProfile: function() {
+    this.age += 3;
+    this.role = "guest";
+    this.isBanned = true;
+    console.log(user.age);
+    console.log(user.role);
+    console.log(user.isBanned);
+  }
+};
+
+user. updateProfile();
