@@ -78,7 +78,18 @@ const user = {
     console.log(user.age);
     console.log(user.role);
     console.log(user.isBanned);
+  },
+  
+  accessProfile: function() {
+    if (isBanned === true || age < 20) {
+      alert ( "Доступ закрыт" );
+    }
   }
 };
 
+user.accessProfile();
+
+
+
 user. updateProfile();
+
