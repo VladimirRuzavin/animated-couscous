@@ -71,7 +71,7 @@ const user = {
   age: 17,
   role: "editor",
   isBanned: false,
-  updateProfile: function() {
+  updateProfile: function () {
     this.age += 3;
     this.role = "guest";
     this.isBanned = true;
@@ -79,17 +79,28 @@ const user = {
     console.log(user.role);
     console.log(user.isBanned);
   },
-  
-  accessProfile: function() {
-    if (isBanned === true || age < 20) {
-      alert ( "Доступ закрыт" );
+
+  accessProfile: function () {
+    if (this.isBanned === true || this.age < 20) {
+      alert( "Доступ закрыт" );
     }
+  },
+
+  adminProfile: function () {
+    this.role = "admin";
+    this.age = 19;
+    if (this.role === "admin" && this.age > 18) {
+      alert( "Полный доступ" );
+    }
+  },
+
+  editorProfile: function() {
+    
   }
 };
 
 user.accessProfile();
 
+user.adminProfile();
 
-
-user. updateProfile();
-
+user.updateProfile();
