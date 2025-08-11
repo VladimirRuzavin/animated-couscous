@@ -95,8 +95,20 @@ const user = {
   },
 
   editorProfile: function() {
-    
-  }
+    this.role = 'editor';
+    this.age = 16;
+    if (this.role === 'editor' && this.age === 16) {
+      alert ( 'Ограниченный доступ: редактор' );
+    }
+  },
+
+  guestProfile: function() {
+    this.role = 'guest';
+    this.age = 15;
+    if (this.role === 'guest' || this.age < 18) {
+      alert ( 'Только просмотр' );
+    }
+  },
 };
 
 user.accessProfile();
@@ -104,3 +116,7 @@ user.accessProfile();
 user.adminProfile();
 
 user.updateProfile();
+
+user.editorProfile();
+
+user.guestProfile(); 
