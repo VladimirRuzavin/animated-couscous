@@ -1,17 +1,17 @@
-//функции в js
-let burger = document.querySelector(".burger");
-function getBurgerElement() {
-  console.log(burger);
-}
-getBurgerElement();
+// //функции в js
+// let burger = document.querySelector(".burger");
+// function getBurgerElement() {
+//   console.log(burger);
+// }
+// getBurgerElement();
 
-function clickOnBurger() {
-  let burger = document.querySelector(".burger");
-  burger.onclick = function () {
-    alert(burger);
-  };
-}
-clickOnBurger();
+// function clickOnBurger() {
+//   let burger = document.querySelector(".burger");
+//   burger.onclick = function () {
+//     alert(burger);
+//   };
+// }
+// clickOnBurger();
 
 // //задание 1
 // function sayHello(from, text) {
@@ -52,71 +52,71 @@ clickOnBurger();
 //   alert( 'А вот и неправильно!' ); // любое значение, кроме 2015
 // }
 
-let car = {
-  model: "audi",
-  year: 2016,
-  speed: 0,
-  speedUp: function () {
-    this.speed += 100;
-    console.log(car.speed);
-  },
-};
+// let car = {
+//   model: "audi",
+//   year: 2016,
+//   speed: 0,
+//   speedUp: function () {
+//     this.speed += 100;
+//     console.log(car.speed);
+//   },
+// };
 
-car.speedUp();
-car.speedUp();
-// console.log(car);
+// car.speedUp();
+// car.speedUp();
+// // console.log(car);
 
-const user = {
-  name: "Anna",
-  age: 17,
-  role: "editor",
-  isBanned: false,
-  updateProfile: function () {
-    this.age += 3;
-    this.role = "guest";
-    this.isBanned = true;
-    console.log(user.age);
-    console.log(user.role);
-    console.log(user.isBanned);
-  },
+// const user = {
+//   name: "Anna",
+//   age: 17,
+//   role: "editor",
+//   isBanned: false,
+//   updateProfile: function (newAge, newRole, banStatus) {
+//     this.age = newAge;
+//     this.role = newRole;
+//     this.isBanned = banStatus;
+//     console.log(user.age);
+//     console.log(user.role);
+//     console.log(user.isBanned);
+//   },
 
-  accessProfile: function () {
-    if (this.isBanned === true || this.age < 20) {
-      alert( "Доступ закрыт" );
-    }
-  },
+//   accessProfile: function () {
+//     if (this.isBanned === true || this.age < 20) {
+//       alert( "Доступ закрыт" );
+//     }
+//   },
 
-  adminProfile: function () {
-    this.role = "admin";
-    this.age = 19;
-    if (this.role === "admin" && this.age > 18) {
-      alert( "Полный доступ" );
-    }
-  },
+//   adminProfile: function () {
+//     this.role = "admin";
+//     this.age = 19;
+//     if (this.role === "admin" && this.age > 18) {
+//       alert( "Полный доступ" );
+//     }
+//   },
 
-  editorProfile: function() {
-    this.role = 'editor';
-    this.age = 16;
-    if (this.role === 'editor' && this.age === 16) {
-      alert ( 'Ограниченный доступ: редактор' );
-    }
-  },
+//   editorProfile: function() {
+//     this.role = 'editor';
+//     this.age = 16;
+//     if (this.role === 'editor' && this.age === 16) {
+//       alert ( 'Ограниченный доступ: редактор' );
+//     }
+//   },
 
-  guestProfile: function() {
-    this.role = 'guest';
-    this.age = 15;
-    if (this.role === 'guest' || this.age < 18) {
-      alert ( 'Только просмотр' );
-    }
-  },
-};
+//   guestProfile: function() {
+//     this.role = 'guest';
+//     this.age = 15;
+//     if (this.role === 'guest' || this.age < 18) {
+//       alert ( 'Только просмотр' );
+//     }
+//   },
+// };
 
-user.accessProfile();
+// user.accessProfile();
 
-user.adminProfile();
+// user.adminProfile();
 
-user.updateProfile();
+// user.updateProfile(20, "guest", true);
 
-user.editorProfile();
+// user.editorProfile();
 
-user.guestProfile(); 
+// user.guestProfile(); 

@@ -23,9 +23,19 @@ body {
   height: 55px;
 }
 
+.burger__menu {
+  display: none;
+  background-color: gray;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+
 .header {
   position: fixed;
   width: 100%;
+  z-index: 20;
 }
 
 .header__link:hover {
