@@ -6,3 +6,9 @@ let showMessage = function () {
 };
 burger.addEventListener("click", showMessage);
 
+let hideMessage = function () {
+ burgerMenu.classList.toggle ;
+};
+burger.addEventListener("click", hideMessage);
+
+
