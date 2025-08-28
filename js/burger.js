@@ -7,7 +7,7 @@ let showMessage = function () {
 burger.addEventListener("click", showMessage);
 
 let hideMessage = function () {
- burgerMenu.classList.toggle ;
+ burger.classList.toggle('burger__menu') ;
 };
 burger.addEventListener("click", hideMessage);
 
