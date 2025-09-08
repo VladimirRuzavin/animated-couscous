@@ -23,41 +23,41 @@ body {
   height: 55px;
 }
 
-.burger__menu {
-  background-color: rgb(253, 252, 252);
+ .burger__menu {
+   background-color: rgb(253, 252, 252);  
   position: fixed;
   top: 90px;
   width: 100vw;
   height: 100vh;
   z-index: 10;
-  display: none;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.burger__menu-title {
+  .burger__menu-title {
   font-size: 68px;
   color: black;
   font-weight: 300;
   margin-top: 12px;
-}
+  display: block;
+}   
 
-.visible {
+  .visible {
   display: block;
   position: fixed;
-}
+}  
 
-.burger__logo {
+ /* .burger__logo {
   display: none;
   width: 50px;
   height: 50px;
-}
+} 
 
-.invisible {
+ .invisible {
   display: block;
   position: fixed;
-}
+}  */
 
 
 .header {
