@@ -1,15 +1,16 @@
-let burger = document.querySelector(".burger"); 
+let burger = document.querySelector(".burger");
 let burgerMenu = document.querySelector(".burger__menu");
-console.log(burger); 
-//  let burgerLogo = document.querySelector(".burger__logo");
-;
-
-let hideMessage = function () {
- burgerMenu.classList.toggle('visible') ;
+console.log(burger);
+let burgerCross = document.querySelector(".burger__cross");
+let toggleMenu = function () {
+  burgerMenu.classList.toggle("visible");
+  burgerCross.classList.toggle("visible");
+  burger.classList.toggle("invisible");
 };
-burger.addEventListener("click", hideMessage);
+burger.addEventListener("click", toggleMenu);
+burgerCross.addEventListener("click", toggleMenu)
 
-//  let showMessage = function () {
-//   burgerLogo.classList.toggle('invisible') ;
-//  };
-//  burgerLogo.addEventListener("click", showMessage);
+//   let showMessage = function () {
+//    burgerCross.classList.toggle('visible') ;
+//   };
+//   burgerCross.addEventListener("click", showMessage);
