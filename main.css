@@ -175,6 +175,13 @@ body {
   color: #b9b8b8;
 }
 
+
+
+.advantages__button-arrow {
+  color: white;
+  font-size: 28px;
+}
+
 .advantages__button {
   width: 100%;
   margin-top: 20px;
@@ -185,6 +192,9 @@ body {
   line-height: 27px;
   letter-spacing: 0%;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
 }
 
 
