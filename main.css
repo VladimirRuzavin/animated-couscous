@@ -139,17 +139,18 @@ body {
 .advantages__wrap {
   display: flex;
   background-color: black;
+  padding: 25px 20px;
 }
 
 .advantages__item-trait {
-  padding: 40px 20px 60px;
+  padding: 20px;
   flex-basis: 33.3%;
   border-left: 1px solid gray;
   border-right: 1px solid gray;
 }
 
 .advantages__item {
-  padding: 40px 20px 60px;
+  padding: 20px;
   flex-basis: 33.3%;
 }
 
@@ -179,7 +180,8 @@ body {
 
 .advantages__button-arrow {
   color: white;
-  font-size: 28px;
+  font-size: 20px;
+  padding-left: 5px;
 }
 
 .advantages__button {
@@ -368,7 +370,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   gap: 20px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 .about__card-wrap {
