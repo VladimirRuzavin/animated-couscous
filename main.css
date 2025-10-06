@@ -200,14 +200,14 @@ body {
 }
 
 
-.section__title {
+.hall__title {
   font-weight: 400;
   font-size: 28px;
   line-height: 32.76px;
   padding-top: 50px;
 }
 
-.section__sub-title {
+.hall__sub-title {
   font-weight: 300;
   font-size: 16px;
   line-height: 24.8px;
@@ -411,7 +411,7 @@ body {
 }
 .about__card-title {
   background-color: black;
-  /* padding-left: 10px; */
+   padding-left: 20px; 
 }
 
 .about__card-title-h2 {
