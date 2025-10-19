@@ -438,7 +438,7 @@ body {
 }
 
 .tabs__title {
-  padding-top: 20px;
+  padding-top: 27px;
   font-weight: 400;
   font-size: 24px;
   line-height: 32.4px;
@@ -459,6 +459,8 @@ body {
   line-height: 32.76px;
   color: gray;
   padding-top: 30px;
+  
+  padding: 27px 0;
 }
 
 .tabs__img {
