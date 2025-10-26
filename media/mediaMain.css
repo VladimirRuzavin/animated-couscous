@@ -35,6 +35,15 @@
     display: block;
   }
 
+  .burger__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .burger__menu-title {
+    padding-bottom: 20px;
+  }
+
   .hero__title {
     font-size: 26px;
   }
@@ -153,10 +162,9 @@
   }
 }
 
-
 @media (max-width: 960px) {
   .advantages__item-trait {
     border-left: 0px solid gray;
-  border-right: 0px solid gray;
+    border-right: 0px solid gray;
   }
 }
