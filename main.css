@@ -6,6 +6,14 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+
+.red_block {
+width: 200px;
+height: 200px;
+background-color: red;
+}
+
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -136,6 +144,7 @@ body {
 
 .advantages {
   padding-top: 90px;
+  
 }
 
 .advantages__wrap {
